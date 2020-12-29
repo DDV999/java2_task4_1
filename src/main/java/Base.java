@@ -4,7 +4,7 @@ public class Base {
         int[] array = new int[20];
         System.out.println("Исходный массив: ");
         int min = 10, max = -10, indexMin = 0, indexMax = 0, swap;
-        // заполнение массива данными и поис нужных чисел их индексов
+        // заполнение массива данными и поиск нужных чисел и их индексов
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) Math.round((Math.random() * 20) - 10);
             System.out.print(array[i] + " ");
